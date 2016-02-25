@@ -1,0 +1,211 @@
+/* Inserta tu codigo aqui */
+body{
+	background: #2D2735;
+}
+header{
+	background: #1C1821;
+	padding: 1%;
+}
+header img{
+	width: 100%;
+}
+header a {
+	text-decoration: none;
+	color: white;
+	padding-left: 3%;
+}
+.text-navegador {
+	text-align: right;
+	font-style: italic;
+	font-family: 'Open Sans';
+}
+/*SECTION-BACKGROUND*/
+.bg-flower{
+	background: url(../image/header-image.jpg) no-repeat;
+	background-size: cover;
+	padding: 12% 0;
+	margin: 5% 0;
+
+}
+.box-spring{
+	background: #1C1821;
+	margin: auto;
+	padding: 2% 0;
+	width: 65%;
+	text-align: center;
+}
+.box-spring h1{
+	font-size: 4.5em;
+	font-family: 'Courgette';
+	color:#F7BA6A;
+	padding-bottom: 3%;
+}
+.box-spring a{
+	text-decoration:none;
+	color:white;
+	font-family: 'Open Sans';
+	font-size: 1em;
+	font-style: italic;
+}
+a:hover { 
+    color: #F7BA6A;
+}
+/*BOX FLOWERS*/
+.flower{
+	background: #1C1821;
+	padding-bottom:10%;
+	color: white;
+	margin-bottom: 15%;
+}
+.flower img {
+	width: 100%;
+}
+.flower img:hover {
+	-moz-transform: scale(1.1);
+  	-webkit-transform: scale(1.1);
+ 	 transform: scale(1.1);
+}
+.flower h2{
+	font-family: 'Courgette';
+	color:#F7BA6A;
+	padding: 5% 2%;
+	text-align: center;
+}
+.flower p{
+	font-family: 'Open Sans';
+	font-size: 1em;
+	font-style: italic;
+	text-align: center;
+}
+/*SECTION INFORAMATION*/
+.img-purple {
+	background: #1C1821;
+	padding-bottom:2%;
+	color: white;
+}
+.img-purple img{
+	width: 100%;
+}
+.img-purple h2{
+	font-family: 'Courgette';
+	color:#F7BA6A;
+	padding: 3% 2%;
+	text-align: center;
+}
+.text-1 {
+	font-family: 'Open Sans';
+	font-size: 1em;
+	font-style: italic;
+	text-align: center;
+}
+.text-2 {
+	font-family: 'Open Sans';
+	padding: 2% 4.5%;
+	font-size: 1em;
+}
+.video{
+	background: #1C1821;
+	color: white;
+}
+.video p{
+	font-family: 'Open Sans';
+	padding: 2% 4%;
+	font-size: 1em;
+}
+.search{
+	background:#1C1821;
+	padding: 8%;
+	width: 100%;
+	border-radius: 5px; 
+}
+.search input{
+	width: 100%;
+	padding: 5% 7%;
+	border-radius: 5px;
+	border:none;
+	background: #2D2735;
+	color:white;
+}
+.about{
+	margin-top: 5%;
+	background: #1C1821;
+	padding-bottom:2%;
+	color: white;
+}
+.about h2{
+	font-family: 'Courgette';
+	color:#F7BA6A;
+	padding: 0 2%;
+	text-align: center;
+	margin-top: 0;
+}
+
+.text-amanda{
+	font-family: 'Open Sans';
+	font-size: 1em;
+	text-align: center;
+	color: white;
+	padding: 0 4%;
+	font-weight: bold;
+}
+.text-p{
+	padding: 0 3%;
+	padding-bottom: 3%;
+	font-family: 'Open Sans';
+	text-align: justify;
+}
+.about img{
+	width: 100%;
+}
+.icons{
+	padding: 4% 5%;
+}
+.social-icons{
+	background: #2D2735;
+	display: inline-block;
+	border-radius: 50px;
+	padding: 3%;
+	margin: 0 1%;
+}
+.social-icons i {
+    font-size: 1rem;
+    text-align: center;
+}
+footer{
+	background: #1C1821;
+	padding: 3%;
+	margin-top: 3.5%;
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans';
+}
+footer a{
+	text-decoration: none;
+	color: #2D2735;
+	font-weight: bold;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+ .container{
+ 	width: 100%;
+ }
+ header .col-3{
+ 	width: 30%;
+ }
+ header .col-9{
+ 	width: 70%;
+ }
+ .section-flower .col-4{
+ 	width:  100%;
+ }
+ .section-flower .flower{
+ 	margin: 0;
+ }
+}
+
+@media screen and (max-width: 600px) {
+
+}
